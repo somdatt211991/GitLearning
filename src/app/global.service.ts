@@ -3,6 +3,8 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class GlobalService {
 
-  constructor() { }
+  constructor() {
+    console.log("hello somdatt");
+  }
 
 }
