@@ -8,6 +8,7 @@ export class GlobalService {
   constructor(private httpModule : HttpClientModule) {
     console.log("hello somdatt");
   }
+
   postRequest(data:Object) {
     
   }
