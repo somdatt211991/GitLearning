@@ -6,5 +6,7 @@ export class GlobalService {
   constructor() {
     console.log("hello somdatt");
   }
-
+   GETREqust(){
+     this
+   }
 }
