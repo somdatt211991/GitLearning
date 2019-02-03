@@ -4,7 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 @Injectable()
 export class GlobalService {
-
+  private name:String ;
   constructor(private httpModule : HttpClientModule) {
     console.log("hello somdatt");
   }
